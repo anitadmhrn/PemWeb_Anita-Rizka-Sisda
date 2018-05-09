@@ -8,6 +8,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 /* Full-width input fields */
 input[type=text], input[type=password] {
     width: 100%;
+    height: 40px;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -128,7 +129,7 @@ span.psw {
 <body>
 
 
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto; background-color:aquamarine">Login</button>
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto; background-color:#f44336">Login</button>
 
 <div id="id01" class="modal">
   
@@ -137,14 +138,16 @@ span.psw {
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
       <img src="user.png" alt="Avatar" class="avatar">
+      
+      <label><center><br>Sign in to Tengok Kanan</center></label>
     </div>
 
     <div class="container">
-        <label for="username"><b>Username</b></label>
-        <input class="masuk" type="text" autocomplete="off" placeholder="Username..." name="username" autofocus required>
+        <label for="username"><b>Username or email address</b></label>
+        <input class="masuk" type="text" autocomplete="off" name="username" autofocus required>
         <br>
         <label for="password"><b>Password</b></label>
-        <input class="masuk" type="password" autocomplete="off" placeholder="Password..." name="username" autofocus required>    
+        <input class="masuk" type="password" autocomplete="off" name="username" autofocus required>    
         <br>
         <input id="tombol" type="submit" value="Login">
       <label>
