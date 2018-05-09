@@ -13,7 +13,7 @@
     }
 ?>
 
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -28,5 +28,5 @@
     <br>
     <a href="logout.php">Logout</a>
 </body>
-</html>>
+</html>
 

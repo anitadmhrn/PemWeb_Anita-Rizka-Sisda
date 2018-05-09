@@ -10,7 +10,7 @@
 
     if($x==TRUE){
         $_SESSION ['username']= $username;
-        header("location:index:php");
+        header("location:index.php");
     }
     else{
         echo"<script> alert('Username atau Password Salah');
