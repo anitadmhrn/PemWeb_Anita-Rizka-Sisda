@@ -19,7 +19,7 @@
 
 
 <div class="topnav" id="myTopnav">
-    <a href="#home" class="active">Home</a>
+    <a href="home.html" class="active">Home</a>
     <div class="dropdown">
       <button class="dropbtn">Fiction 
         <i class="fa fa-caret-down"></i>
@@ -44,39 +44,14 @@
       </div> 
     <a href=about.html>About</a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    <div class="topnav" id="myTopnav">
+        <a href="login.php" style="float:right">Login</a>
 
-<!--LOGIN BRO-->
-    <link rel="stylesheet" type="text/css" href="login_modal.css"/ style="float:right"/>
-    
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto; background-color:#f44336">Login</button>
 
-<div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="/action_page.php">
-  <form method="post" action="aksi_login.php">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="user.png" alt="Avatar" class="avatar">
-      
-      <label><center><br>Sign in to Tengok Kanan</center></label>
-    </div>
 
-    <div class="container">
-        <label for="username"><b>Username or email address</b></label>
-        <input class="masuk" type="text" autocomplete="off" name="username" autofocus required>
-        <br>
-        <label for="password"><b>Password</b></label>
-        <input class="masuk" type="password" autocomplete="off" name="username" autofocus required>    
-        <br>
-        <input id="tombol" type="submit" value="Login">
-        <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
-    </div>
 
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-    </div>     <span class="psw"> <a href="#">Forgot password?</a></span>
+
+
   </form>
 </div>
 
@@ -107,11 +82,18 @@ window.onclick = function(event) {
     </style>
     <body>
 
-      <table border=1>
-    <tr><td><div class="w3-content w3-section">
-      <img class="mySlides" src="q1.jpg" width="300px"height="200px">
-      <img class="mySlides" src="b4.jpg" width="300px" height: "200px">
-    </div></td></tr></table>
+      <table>
+        <tr>
+          <td>
+          <div>
+          <img class="mySlides" src="b2.png" width="300px"height="200px">
+          <img class="mySlides" src="b4.jpg" width="300px" height: "200px">
+          </div>
+          </td>
+          <td style="background-color:salmon; width:100%">
+          </td>
+        </tr>
+      </table>
     
     <script>
     var myIndex = 0;
@@ -156,19 +138,41 @@ window.onclick = function(event) {
     </script>
 
   <div class="main">
-      <h2>TITLE HEADING</h2>
+    <h2>Review Atheis (Achdiat K. Mihardja): Antara Perenjak dan Manyar</h2>
+    <h5>Sisda Amalia Utrujah, April 26, 2017</h5>
+    <table>
+      <tr>
+        <td>
+        <img src="img1.jpg"; height="400px">
+        </td>
+        <td valign="top">
+          <table>
+            <tr>
+              <td>Judul</td>
+              <td>: Atheis</td>
+            </tr>
+            <tr>
+              <td>Penulis</td>
+              <td>: Achdiat K. Mihardja</td>
+            </tr>
+            <tr>
+              <td>Penerbit</td>
+              <td>: Balai Pustaka</td>
+            </tr>
+            <tr>
+              <td>Tebal Buku</td>
+              <td>: 232 halaman</td>
+            </tr>
+          </table>
+          <td valign="bottom" align="right">
+              <input type="submit" value="Read More" style = "background-color: #f44336">
+          </td>
+        </td>
+      </tr>
+    </table>
       
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      <br>
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-  </div>
+      </div>
+      </div>
 </div>
 
 <div class="footer">
