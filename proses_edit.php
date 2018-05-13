@@ -6,6 +6,6 @@ $email= $_POST['email'];
 
 mysqli_query($host, "UPDATE reviewer SET nama_reviewer='$nama', email='$email' WHERE id='$id'");
 
-header("location:index.pho");
+header("location:index.php");
 
 ?>
