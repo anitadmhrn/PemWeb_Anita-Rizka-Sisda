@@ -5,7 +5,7 @@
     include 'config.php';
 
     if(!isset($_SESSION['username'])){
-        header("location:login.php");
+        header("location:web.html");
         exit();
     }
     if(isset($_SESSION['username'])){

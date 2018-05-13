@@ -8,11 +8,9 @@
 <body>
 
 
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto; background-color:#f44336">Login</button>
-
 <div id="id01" class="modal">
   
-  <form class="modal-content animate" action="/action_page.php">
+  <form class="modal-content animate" action="aksi_login.php">
   <form method="post" action="aksi_login.php">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
@@ -26,7 +24,7 @@
         <input class="masuk" type="text" autocomplete="off" name="username" autofocus required>
         <br>
         <label for="password"><b>Password</b></label>
-        <input class="masuk" type="password" autocomplete="off" name="username" autofocus required>    
+        <input class="masuk" type="password" autocomplete="off" name="password" autofocus required>    
         <br>
         <input id="tombol" type="submit" value="Login">
       <label>
