@@ -2,10 +2,11 @@
 <head>
     <title>CRUD</title>
 <head>
+<link rel="stylesheet" href="input.css"/>
 <body>
     <a href="input.php"> + Tambah Data Baru</a>
     <h3>Data <i>Reviewer</i></h3>
-    <table border ="1" class=" table">
+    <table class=" table">
         <tr>
             <th>No</th>
             <th>Nama</th>
