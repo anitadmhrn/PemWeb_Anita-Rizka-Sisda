@@ -180,6 +180,7 @@ img:hover {
 /* Footer */
 .footer {
     padding: 20px;
+    color:white;
     text-align: center;
-    background: #ddd;
+    background: powderblue;
 }
