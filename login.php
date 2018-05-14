@@ -7,7 +7,7 @@
 
 <body>
 
-
+<button onclick="document.getElementById('id01').style.display='block'"style="width:auto;float:right;background-color:salmon" >Login</button>
 <div id="id01" class="modal">
   
   <form class="modal-content animate" action="aksi_login.php">
