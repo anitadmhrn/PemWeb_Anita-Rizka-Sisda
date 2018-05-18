@@ -1,6 +1,6 @@
 <?php   
     session_start();
-    include'config.php';
+    include'koneksi.php';
 
 
     $username= $_POST['username'];
@@ -11,15 +11,11 @@
 
     if($x==TRUE){
         $_SESSION ['username']= $username;
-        header("location:index.php");
+        header("location:web.html");
     }
     else{
         echo"<script> alert('Username atau Password Salah');
         location='home.php';
         </script>";
     }
-    
-
-    
-
 ?>
