@@ -121,10 +121,13 @@ span.psw {
     }
 }
 
+bookreview{
+    font-size:12px;
+}
 </style>
 
 <body>        
-    <center><br><br><br>
+    <center><br><br><br><bookreview>Book Review&reg;</bookreview>
         <h1><img src= "logotk.png" height="300"><h1>
         <button onclick="document.getElementById('id01').style.display='block'" style="width:200px;">Login</button>
     </center>
@@ -143,7 +146,8 @@ span.psw {
         <label for="psw"><b>Password</b></label>
         <input type="password" name="password" required>
         <input type="checkbox" checked="checked" name="remember"> Remember me
-        <button type="submit">Login</button>
+        <button type="submit">Login</button><input value="Batal" type="reset"></td></tr>
+        <a href="daftar.php"style="float:right"><b>don't have any account yet? Join Us!</b></a>
     </div>
         </form>
 
