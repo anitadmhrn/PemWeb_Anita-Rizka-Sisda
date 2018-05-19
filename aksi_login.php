@@ -18,6 +18,7 @@ input[type=text]{
 }
 
 input[type=submit] {
+    
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16;
     width: 100%;
