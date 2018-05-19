@@ -15,7 +15,7 @@
     }
     else{
         echo"<script> alert('Username atau Password Salah');
-        location='home.php';
+        location='login.php';
         </script>";
     }
 ?>
