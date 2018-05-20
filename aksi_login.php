@@ -1,58 +1,64 @@
-<html>
-    <style>body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16;
-    background-color: powderblue;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>[Review Book] Tengok Kanan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="web.css"/>
+</head>
 
-input[type=text]{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16;
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
+<div class="fixed-bg">
+<body>
+<?php
 
-input[type=submit] {
-    
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16;
-    width: 100%;
-    background-color: salmon;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
+include 'index.php';
+ ?>
+<div class="header">
+    <img src="logo.png" height= "60" width= "60">
+    <h1>- Tengok Kanan -</h1>
+    <h3>Review Book</h3>
+  <p></p>
+</div>
 
-input[type=submit]:hover {
-    background-color: salmon;
-}
 
-.container{
-	width:60%;
-	height:250px;
-	padding:20px;
-	position: fixed;
-	top: 190px;
-	left: 35%;
-	margin-top: -120px;
-	margin-left: -220px;
-}
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Fiction 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Fantasy</a>
+        <a href="#">Romance</a>
+        <a href="#">Comedy</a>
+        <a href="#">Mystery</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+        <button class="dropbtn">Non-Fiction 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">History</a>
+          <a href="#">Biography</a>
+          <a href="#">Essay</a>
+          <a href="#">Text-Book</a>
+        </div>
+      </div> 
+    <a href=about.html>About</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 
-div {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16;
-    width: 70%;
-    border-radius: 5px;
-    background-color: whitesmoke;
-    padding: 20px;
+    <a href=data.php>Data Reviewer</a>
+  </div>
+
+
+
+
+  <style>
+    .mySlides {display:none;
+      width: 500px;
+      height:400px;
+      position: relative;
 }
 </style><center><?php
    session_start();
