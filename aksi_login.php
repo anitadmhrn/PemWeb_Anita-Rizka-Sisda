@@ -68,7 +68,7 @@ div {
        echo "<div align='center'>Oopsss! Wrong Password! <a href='login.php'>Back</a></div>";
      } else {
        $_SESSION['username'] = $hasil['username'];
-       header('location:index.php');
+       header('location:web.php');
      }
    }
 ?></center>

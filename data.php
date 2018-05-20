@@ -5,12 +5,14 @@
 <head>
 <link rel="stylesheet" href="data.css"/>
 <body>
+
+    <a href="web.php">Back</a>
 <form style="width: 900px" class="posisi";>
     <center><h2>Data <i>Reviewer</i></h2></center>
     <table style="width: 840px;">
         <tr>
             <th>No</th>
-            <th>Nama</th>
+            <th>Name</th>
             <th>Email</th>
             <th>Opsi</th>
         </tr>
@@ -35,7 +37,7 @@
         }
             ?>
     </table><br>
-    <a href="input.php">Tambah Data Baru</a>
+    <a href="input.php">Add new entry</a>
     </form>
 </body>
 </html>

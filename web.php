@@ -9,56 +9,10 @@
 
 <div class="fixed-bg">
 <body>
+<?php
 
-<!--LOGIN BRO-->
-
-
-<link rel="stylesheet" type="text/css" href="login_modal.css"/ style="float:right"/>
-    
-<button onclick="document.getElementById('id01').style.display='block'"style="width:auto;float:right;background-color:salmon" >Login</button>
-
-<div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="aksi_login.php">
-  <form method="post" action="aksi_login.php">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="user.png" alt="Avatar" class="avatar">
-      
-      <label><center><br>Sign in to Tengok Kanan</center></label>
-    </div>
-
-    <div class="container">
-        <label for="username"><b>Username or email address</b></label>
-        <input class="masuk" type="text" autocomplete="off" name="username" autofocus required>
-        <br>
-        <label for="password"><b>Password</b></label>
-        <input class="masuk" type="password" autocomplete="off" name="password" autofocus required>    
-        <br>
-        <input id="tombol" type="submit" value="Login">
-        <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-    </div>    <a href="">Forgot password?</a> <a href="index.php" style="float:right">don't have an account to review yet? come join!</a>
-  </form>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
-
-
+include 'index.php';
+ ?>
 <div class="header">
     <img src="logo.png" height= "60" width= "60">
     <h1>- Tengok Kanan -</h1>
@@ -94,7 +48,7 @@ window.onclick = function(event) {
     <a href=about.html>About</a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 
-
+    <a href=data.php>Data Reviewer</a>
   </div>
 
 
