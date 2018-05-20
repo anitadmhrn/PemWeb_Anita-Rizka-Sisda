@@ -56,18 +56,18 @@ div {
 }
 </style>
 <body>
-
+<a href="web.php">Back</a>
 <center><h2>Input User</h2></center>
 
 <div class="container">
   <form action="proses_input.php" method="post">
-    <label for="nama">Nama Lengkap</label>
+    <label for="nama">Name</label>
     <input type="text" name="nama">
 
-    <label for="email">Alamat Email</label>
+    <label for="email">Email address</label>
     <input type="text" name="email">
   
-    <input type="submit" value="Submit"> <a href="index.php">Lihat Semua Data</a>
+    <input type="submit" value="Submit"> <a href="data.php">View All Data</a>
   </form>
 </div>
 </body>
